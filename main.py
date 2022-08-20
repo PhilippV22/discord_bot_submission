@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
-Token = 'MTAxMDMyOTgyNTE0NTI3NDQ5OQ.GzJXvV.tlYdQMeIKKlraGrzd5F67iI2a6QhCIZLDU5bAs'
+Token = 'BOT_TOKEN'
 
 @client.event
 async def on_ready():
